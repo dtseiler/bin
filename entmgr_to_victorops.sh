@@ -1,7 +1,11 @@
 #!/bin/ksh
 
+# Place this script on your Enterprise Manager (EM) server and add it as a new Notification Method
+# under Setup -> Notifications -> Notification Methods as an OS Command. 
+#
 # Environment variables are passed in from EM12c
 # See http://docs.oracle.com/cd/E24628_01/doc.121/e24473/notification.htm#CACFAEAF
+#
 # VictorOps REST API: http://victorops.force.com/knowledgebase/articles/Integration/Alert-Ingestion-API-Documentation/
 
 # Look this up in your VictorOps account Settings->Integrations->REST Endpoint screen
